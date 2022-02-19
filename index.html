@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="index.js" defer></script>
+
+    <title>Number_Guessing_Game_Y</title>
+</head>
+<body>
+
+
+    <main>
+        <h1>Number Guessing Game</h1>
+
+        <h3 class="interval">(Enter a Number Between <span class="down">1</span> - <span class="up">100</span>)</h3>
+
+        <div class="input-box">
+            <input type="number" name="guess-number" id="guess-number" min="1" max="100">
+            <button id="guess-btn">Guess</button>
+        </div>
+
+        <label class="report">Make a Guess!</label>
+        <label class="attempts">Remaining Guesses: <span id="attepmts-span">10</span></label>
+
+        <div class="difficulty">
+            <label>Difficulty: </label>
+            <input type="radio" name="difficulty" id="easy" value="easy" checked>
+            <label for="easy">Easy</label>
+            <input type="radio" name="difficulty" id="hard" value="hard">
+            <label for="hard">Hard</label>
+        </div>
+
+        <button class="reset">Play Again</button>
+    </main>
+
+    <footer>
+        <p>Designed by Tarik Sitki</p> 
+        <p>Copyright &#169; 2022</p>
+    </footer>
+
+</body>
+</html>
